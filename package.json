@@ -1,0 +1,52 @@
+{
+  "name": "copy-unslop-mcp",
+  "version": "1.0.0",
+  "description": "MCP server + agent skill that audits copywriting for AI slop (stock phrases, empty adjectives, em-dash tics, fake social proof, generic CTAs) in English and Bahasa Indonesia, with readability scoring and SEO/microcopy length checks. Works with Claude Code, Claude Desktop, Codex and Antigravity.",
+  "type": "module",
+  "bin": {
+    "copy-unslop-mcp": "src/server.mjs"
+  },
+  "files": [
+    "src",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "skill",
+    "anti-slop",
+    "copywriting",
+    "copy",
+    "writing",
+    "readability",
+    "seo",
+    "marketing",
+    "ux-writing",
+    "microcopy",
+    "indonesian",
+    "claude",
+    "codex",
+    "antigravity"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "unslop-core": "^1.0.0"
+  },
+  "author": "Fikri Firman Fadilah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fikrifirmanf/copy-unslop-mcp.git"
+  },
+  "homepage": "https://github.com/fikrifirmanf/copy-unslop-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/fikrifirmanf/copy-unslop-mcp/issues"
+  }
+}
